@@ -11,6 +11,8 @@ int main()
     bool Status{true};
     std::cout << std::boolalpha;
 
-    std::cout << EngineName << " is starting." << '\n' << "Version: " << Version << '\n' << "Engine Status: " << Status << '\n';
+    std::cout << EngineName << " is starting." << '\n' << "Version: " << Version
+              << '\n' << "Engine Status: " << Status << '\n';
+
     return 0;
-}
+}                                                                                
