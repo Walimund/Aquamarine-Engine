@@ -2,6 +2,16 @@
 #include <string>
 
 // Displays the Engine information
+void systemInfo();
+
+int main()
+{
+	systemInfo();
+
+	return 0;
+}
+
+
 void systemInfo()
 {
 	std::string EngineName{ "Aquamarine Engine" };
@@ -13,11 +23,4 @@ void systemInfo()
 
 	std::cout << EngineName << " is starting." << '\n' << "Version: " << Version
 		<< '\n' << "Engine Status: " << Status << '\n';
-}
-
-int main()
-{
-	systemInfo();
-
-	return 0;
 }
