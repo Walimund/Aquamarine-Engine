@@ -1,6 +1,4 @@
-#ifndef ENGINEINFO_H
-#define ENGINEINFO_H
+#pragma once
 
 void engineInfo();
 
-#endif

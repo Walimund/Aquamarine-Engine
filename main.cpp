@@ -1,11 +1,11 @@
 #include "engineInfo.h"
-#include <iostream>
-#include <string>
+#include "gameLogic.h"
 
-// Displays the Engine information
 int main()
 {
 	engineInfo();
+
+	gameLogic();
 
 	return 0;
 }

@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>
 
+// Displays the system information to make it easy to see progress
 void engineInfo()
 {
 	std::string EngineName{ "Aquamarine Engine" };
