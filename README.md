@@ -38,4 +38,5 @@ Custom C++ game engine project.
 - [x] Basic engine initialization with std::string and bool
 - [X] Function based architecture
 - [X] Header files and multi-file projects
+- [x] Debugging
 - [ ] ...
