@@ -39,4 +39,4 @@ Custom C++ game engine project.
 - [X] Function based architecture
 - [X] Header files and multi-file projects
 - [x] Debugging
-- [ ] ...
+- [x] Studied breakpoints
