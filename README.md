@@ -3,10 +3,10 @@ Custom C++ game engine project.
 
 ## Part 1
 
-### LearnCppProgress
+### LearnCpp Progress
 - [x] Chapter 1 + Quiz - Fundamentals
 - [x] Chapter 2 + Quiz - Functions
-- [ ] Chapter 3 + Quiz - Debugging
+- [x] Chapter 3 + Quiz - Debugging
 - [ ] Chapter 4-6 + Quizzes - Data Types, Constants, and Control Flow
 - [ ] Chapter 12-16 + Quizzes - Memory Management (Pointers and References)
 
