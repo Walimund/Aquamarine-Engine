@@ -13,6 +13,11 @@ void gameLogic()
 	int cLevel{};
 	std::cin >> cLevel;
 
+	if (cLevel <= 0) {
+		std::cout << "Invalid input, setting level to 1.\n";
+		cLevel = 1;
+	}
+
 	int trueHealth{ levelMultiplier(baseCharacterHealth, cLevel) };
 
 	std::cout << "Your health is: " << trueHealth
