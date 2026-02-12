@@ -7,7 +7,8 @@ Custom C++ game engine project.
 - [x] Chapter 1 + Quiz - Fundamentals
 - [x] Chapter 2 + Quiz - Functions
 - [x] Chapter 3 + Quiz - Debugging
-- [ ] Chapter 4-6 + Quizzes - Data Types, Constants, and Control Flow
+- [x] Chapter 4 + Quiz - Data Types
+- [ ] Chapter 5-6 + Quizzes - Data Constants, and Control Flow
 - [ ] Chapter 12-16 + Quizzes - Memory Management (Pointers and References)
 
 ## Part 2 (Summer 2026)
