@@ -1,5 +1,6 @@
 #include <iostream>
 #include "levelMultiplier.h"
+#include "getLevel.h"
 
 void gameLogic()
 {
@@ -9,14 +10,7 @@ void gameLogic()
 
 	int baseGoblinDamage{ 10 };
 
-	std::cout << "What is thine level?" << '\n';
-	int cLevel{};
-	std::cin >> cLevel;
-
-	if (cLevel <= 0) {
-		std::cout << "Invalid input, setting level to 1.\n";
-		cLevel = 1;
-	}
+	int cLevel{getLevel()};
 
 	int trueHealth{ levelMultiplier(baseCharacterHealth, cLevel) };
 
