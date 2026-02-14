@@ -1,3 +1,0 @@
-#pragma once
-
-int getLevel();
