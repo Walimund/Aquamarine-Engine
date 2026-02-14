@@ -5,7 +5,7 @@ int main()
 {
 	engineInfo();
 
-	gameLogic();
+	dialogue();
 
 	return 0;
 }
