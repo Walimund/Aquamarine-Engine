@@ -41,3 +41,4 @@ Custom C++ game engine project.
 - [X] Header files and multi-file projects
 - [x] Debugging
 - [x] Studied breakpoints
+- [ ] Implemented basic combat using std::string
