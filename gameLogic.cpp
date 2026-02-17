@@ -3,6 +3,7 @@
 #include "gameLogic.h"
 #include "constants.h"
 
+// Core function that starts the game
 void dialogue()
 {
 	int cLevel{getLevel()};
@@ -20,6 +21,7 @@ void dialogue()
 		<< battlePrompt(trueDamage, trueGoblinDamage, trueHealth, trueGoblinHealth);
 }
 
+// Gives an answer from 2 multiplied numbers
 int levelMultiplier(int x, int y)
 {
 
@@ -30,6 +32,7 @@ int levelMultiplier(int x, int y)
 	return newValue;
 }
 
+// Gets the level from the user
 int getLevel()
 {
 	std::cout << "What is thine level?" << '\n';
@@ -43,11 +46,13 @@ int getLevel()
 	return x;
 }
 
+// Simple damage calculation by subtracting two ints
 int calcDamage(int x, int y)
 {
 	return x - y;
 }
 
+// Begins battle prompt and simple battle actions
 int battlePrompt(int cd, int gd, int ch, int gh)
 {
 	std::cout << "You've entered battle! What would you like to do?\n"
