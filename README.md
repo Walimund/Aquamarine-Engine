@@ -35,10 +35,14 @@ Custom C++ game engine project.
 - [ ] Internship Application!!
 
 
-## Current Progress
+## Current Progress and Goals
 - [x] Basic engine initialization with std::string and bool
 - [X] Function based architecture
 - [X] Header files and multi-file projects
 - [x] Debugging
 - [x] Studied breakpoints
-- [ ] Implemented basic combat using std::string
+- [x] Implemented basic combat using std::string
+- [x] Finished Chapter 5
+- [ ] Create simple in game shop
+- [ ] Finish Chapter 6
+- [ ] After learning loops, implement a looping battle
