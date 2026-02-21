@@ -42,7 +42,7 @@ Custom C++ game engine project.
 - [x] Debugging
 - [x] Studied breakpoints
 - [x] Implemented basic combat using std::string
-- [x] Finished Chapter 5
+- [x] Finish Chapter 5 + Quiz
 - [ ] Create simple in game shop
 - [ ] Finish Chapter 6
 - [ ] After learning loops, implement a looping battle
