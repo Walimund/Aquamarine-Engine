@@ -21,4 +21,8 @@ namespace Messages {
 	inline constexpr std::string_view levelPrompt{ "What is thine level?\n" };
 	inline constexpr std::string_view invalidLevel{ "Invalid input, setting level to 1.\n" };
 	inline constexpr std::string_view battlePrompt{ "You've entered battle! What would you like to do?\nFIGHT, FLEE, or ITEM\n" };
+
+	// Engine info constants
+	inline constexpr std::string_view engineName{ "Aquamarine Engine" };
+	inline constexpr std::string_view versionNum{ "1.0" };
 }
