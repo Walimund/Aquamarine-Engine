@@ -71,6 +71,8 @@ int battlePrompt(int cd, int gd, int ch, int gh)
 
 	if (ch == 0)
 		std::cout << Messages::death;
+	if (gh == 0)
+		std::cout << Messages::victory;
 
 	return calcDamage(ch, gd);
 
