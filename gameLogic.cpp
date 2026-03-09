@@ -69,5 +69,9 @@ int battlePrompt(int cd, int gd, int ch, int gh)
 	else
 		std::cout << "Invalid input! Trying to flee\n";
 
-		return calcDamage(ch, gd);
+	if (ch == 0)
+		std::cout << Messages::death;
+
+	return calcDamage(ch, gd);
+
 }
