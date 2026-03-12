@@ -37,5 +37,5 @@ Integration of education LearnCpp wherever applicable.
 - [x] Implemented basic combat using std::string
 - [x] Finish Chapter 5 + Quiz
 - [ ] Create simple in game shop
-- [ ] Finish Chapter 6
+- [x] Finish Chapter 6
 - [ ] After learning loops, implement a looping battle
